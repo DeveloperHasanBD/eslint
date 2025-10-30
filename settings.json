@@ -1,0 +1,33 @@
+{
+  // ✅ Enable ESLint for JS & JSX files
+  "eslint.validate": ["javascript", "javascriptreact"],
+
+  // ✅ Run ESLint auto-fix on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // ✅ Automatically format code when saving
+  "editor.formatOnSave": true,
+
+  // ✅ Set default formatter to ESLint (you can switch to Prettier later)
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+
+  // ✅ Optional: make VS Code use tabs or spaces consistently
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+
+  // ✅ Optional: display problems clearly in VS Code
+  "eslint.alwaysShowStatus": true,
+
+  // ✅ Optional: silence warnings about deprecated React import
+  "javascript.validate.enable": false,
+
+  // ✅ If you use Prettier later, disable its ESLint conflicts
+  "prettier.enable": false
+}
