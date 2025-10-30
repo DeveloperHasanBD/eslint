@@ -1,3 +1,4 @@
-1. yarn add eslint-plugin-react --dev
-2. .eslintrc.json
-3. Then restart ESLint in VS Code: Ctrl + Shift + P → Restart ESLint Server → Enter
+1. Install ESLint locally: yarn add eslint --dev
+2. Check the version: npx eslint -v
+3. Initialize ESLint config: npx eslint --init
+4. Install missing ESLint plugins: yarn add eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y --dev
