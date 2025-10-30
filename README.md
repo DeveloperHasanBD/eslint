@@ -5,3 +5,9 @@
 **3. Initialize ESLint config:** npx eslint --init
 
 **4. Install missing ESLint plugins:** yarn add eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y --dev
+
+
+**Then add file in to:** .vscode/settings.json
+**And inside root folder add this file:** eslint.config.mjs
+
+
