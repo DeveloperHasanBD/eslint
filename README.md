@@ -10,6 +10,6 @@
 **Then add file in to:** .vscode/settings.json
 **And inside root folder add this file:** eslint.config.mjs
 
-Finally **Ctrl + Shift + P** Developer: Reload Window
+Finally **Ctrl + Shift + P** "Developer: Reload Window"
 
 
